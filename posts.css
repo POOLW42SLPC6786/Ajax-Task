@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    height: 0;
+}
+
+
+.posts {
+    font-style: oblique;
+}
+
+#target {
+    background-color: antiquewhite;
+}
+
+#heading {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    align-content: center;
+    width: 105px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: blue;
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+}
+
+#post-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+    column-gap: 40px;
+    position: absolute;
+    top: 200px;
+    margin-left: 40px;
+}
+
+#single-post {
+    width: 291px;
+    height: 350px;
+    background: #C4C4C4;
+    position: relative;
+    border: 2px Solid;
+    border-color:  white;
+
+}
+
+#title {
+    width: 291px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#image {
+    height: 147px;
+    position: absolute;
+    top: 150px;
+    width: 291px;
+    height: 111px;
+    background: #E6E6E6;
+}
+
+#excerpt {
+    position: absolute;
+    top: 258px;
+    width: 291px;
+    height: 111px;
+    font-size: small;
+}
+
+#likes {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 78px;
+    height: 49px;
+    background: #E6E6E6;
+    font-size: 40px;
+    
+}
+
+#hits {
+    width: 78px;
+    height: 49px;
+    background: #E6E6E6;
+    position: absolute;
+    bottom: 0px;
+    left: 106.5px;
+
+}
+
+#view {
+    width: 78px;
+    height: 49px;
+    background: #E6E6E6;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
